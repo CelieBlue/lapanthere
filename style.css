@@ -327,7 +327,7 @@ a:hover {
 .nav > li {
     float: left;
     margin-top: 4px;
-    font-size: 16px;
+    font-size: 20px;
 }
 
 .navbar-nav .open .dropdown-menu > li > a {
@@ -652,7 +652,7 @@ label,
 .btn,
 a {
     font-family: "helvetica";
-    font-weight: 400;
+    font-weight: 600;
     color: #575757!important;
 }
 
@@ -681,10 +681,12 @@ a {
 p {
 /* old size: 11px; */
     font-size: 16px;
+    line-height: 1.4em;
+    margin-bottom:10px;
 }
 
 .tight-width-whitespace {
-    max-width: 600px;
+    max-width: 650px;
     margin: auto auto auto auto;
 }
 
@@ -704,12 +706,13 @@ p {
 
 .social {
     max-width: 400px;
-    margin: 40px auto auto auto;
+    margin: 30px auto 30px auto;
 }
 
 h2 {
     font-size: 22px;
-    line-height: 1.4em;
+    line-height: 1.6em;
+    padding-bottom:10px;
 }
 
 h3 {
@@ -761,7 +764,9 @@ h4 {
 }
 
 .black-background {
-    background-color: rgba(165, 147, 99, 0.7);
+    background-color:rgba(73, 63, 33, 0.7);
+    /* old color :
+    background-color: rgba(165, 147, 99, 0.7); */
     padding: 40px 40px 40px 40px;
 }
 
@@ -775,7 +780,7 @@ h4 {
 }
 
 .bgc-dark-slate-blue {
-    background-color:#465fb1;
+    background-color:#080e20;
     /* old color without contrast
     background-color: #364577; */
 }
@@ -947,8 +952,11 @@ h4 {
         padding-left: 15px;
         width: 100%;
     }
+
     .nav > li:hover {
         background: rgba(0, 0, 0, .08);
+        font-weight: 900;
+
     }
     .dropdown .dropdown a .caret {
         float: none;
