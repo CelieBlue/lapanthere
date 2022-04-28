@@ -133,7 +133,8 @@ a:hover {
 .d-bloc h5 a,
 .d-bloc h6 a,
 .d-bloc p a {
-    color: rgba(255, 255, 255, .6);
+    color: #311609;
+    /* color: rgba(255, 255, 255, .6); */
 }
 
 .d-bloc .a-btn:hover,
@@ -150,7 +151,8 @@ a:hover {
 .d-bloc h5 a:hover,
 .d-bloc h6 a:hover,
 .d-bloc p a:hover {
-    color: rgba(255, 255, 255, 1);
+    color: #6b432e;
+    /*color: rgba(255, 255, 255, 1); */
 }
 
 .d-bloc .navbar-toggle .icon-bar {
@@ -677,7 +679,8 @@ a {
 }
 
 p {
-    font-size: 11px;
+/* old size: 11px; */
+    font-size: 16px;
 }
 
 .tight-width-whitespace {
@@ -701,7 +704,7 @@ p {
 
 .social {
     max-width: 400px;
-    margin: auto auto auto auto;
+    margin: 40px auto auto auto;
 }
 
 h2 {
@@ -739,6 +742,11 @@ h4 {
     color: #FFFFFF!important;
 }
 
+/* New color for the contrast */
+.brown {
+    color: #311609!important;
+}
+
 .portfolio-thumb {
     margin-bottom: 24px;
 }
@@ -767,7 +775,9 @@ h4 {
 }
 
 .bgc-dark-slate-blue {
-    background-color: #364577;
+    background-color:#465fb1;
+    /* old color without contrast
+    background-color: #364577; */
 }
 
 .bgc-atomic-tangerine {
@@ -775,17 +785,23 @@ h4 {
 }
 
 .tc-white {
-    color: #F3976C!important;
+    color: #FFFFFF!important;
+/* old color without contrast
+    color: #F3976C!important;*/
 }
 
 .btn-atomic-tangerine {
     background: #F3976C;
-    color: #FFFFFF!important;
+    /* old color without contrast
+    background: #F3976C; */
+    color: #311609!important;
 }
 
 .btn-atomic-tangerine:hover {
-    background: #c27956!important;
-    color: #FFFFFF!important;
+    background: #f7aa87;
+    /* old color without contrast
+    background: #c27956!important; */
+    color: #311609!important;
 }
 
 .ltc-white {
