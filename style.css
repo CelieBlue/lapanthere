@@ -660,6 +660,10 @@ a {
     font-family: "helvetica";
     color: #575757!important;
 }
+/* hover for the nav */
+a:hover {
+    color:rgb(182, 136, 112)!important;;
+}
 
 /* label for form in Contact.html */
 label {
