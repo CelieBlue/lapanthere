@@ -93,6 +93,7 @@ a:hover {
 .texture-paper::before {
     background: url("img/texture-paper.png");
     background-size: 280px 280px;
+
 }
 
 .b-parallax {
@@ -201,7 +202,7 @@ a:hover {
 }
 
 .d-bloc .panel button:hover,
-.l-bloc button:hover {
+.l-bloc button:hover {   
     color: rgba(0, 0, 0, .7);
 }
 
@@ -324,10 +325,12 @@ a:hover {
     z-index: 1;
 }
 
+/* new font weight */
 .nav > li {
     float: left;
     margin-top: 4px;
     font-size: 20px;
+    font-weight: 700;
 }
 
 .navbar-nav .open .dropdown-menu > li > a {
@@ -512,6 +515,7 @@ button {
 .form-control {
     border-color: rgba(0, 0, 0, .1);
     box-shadow: none;
+    font-weight: 32px;
 }
 
 .scrollToTop {
@@ -657,12 +661,18 @@ a {
     color: #575757!important;
 }
 
+/* label for form in Contact.html */
+label {
+    display: block;
+}
+
 .container {
     max-width: 1000px;
 }
 
 .hero-bloc-text {
     font-size: 38px;
+    font-weight:900;
 }
 
 .hero-bloc-text-sub {
@@ -681,13 +691,14 @@ a {
 
 p {
 /* old size: 11px; */
-    font-size: 16px;
+    font-size: 18px;
     line-height: 1.4em;
     margin-bottom:10px;
 }
 
+/* max-width change from 650 to 750px */
 .tight-width-whitespace {
-    max-width: 650px;
+    max-width: 750px;
     margin: auto auto auto auto;
 }
 
@@ -701,7 +712,7 @@ p {
     color: #FFFFFF!important;
     text-transform: uppercase;
     padding: 12px 28px 12px 28px;
-    font-size: 16px;
+    font-size: 20px;
     font-weight: 700;
 }
 
@@ -731,6 +742,8 @@ h3 {
 
 h1 {
     color: #333333!important;
+    /* New weight for the h1 of index.html */
+    font-weight: 900;
 }
 
 h4 {
@@ -796,6 +809,12 @@ h4 {
     color: #FFFFFF!important;
 /* old color without contrast
     color: #F3976C!important;*/
+}
+
+/* new color with bold */
+.tc-brown {
+    color: #311609!important;
+    font-weight: 900;
 }
 
 .btn-atomic-tangerine {
